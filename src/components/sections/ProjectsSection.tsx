@@ -30,7 +30,7 @@ export default function ProjectsSection() {
 
   return (
     <SectionContainer id="projects" number="04">
-      <div className="flex flex-col gap-10">
+      <div className="flex flex-col gap-8 md:gap-10">
         {projects.map((project, index) => (
           <ProjectCard key={index} project={project} />
         ))}
