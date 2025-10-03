@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://gsarmiento.vercel.app
+
+# Sitemaps
+Sitemap: https://gsarmiento.vercel.app/sitemap.xml

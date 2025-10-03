@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: "https://karlapas.vercel.app",
+  siteUrl: "https://gsarmiento.vercel.app",
   generateRobotsTxt: true,
-  sitemapSize: 7000,
+  sitemapSize: 5000,
 };
