@@ -56,6 +56,7 @@ const ProjectCard = ({
       width={200}
       height={200}
       className="border-subtext h-20 w-36 md:h-20 md:w-32 rounded border object-cover shadow-lg flex-shrink-0"
+      draggable={false}
     />
 
     <div>

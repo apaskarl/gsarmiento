@@ -10,6 +10,7 @@ import MouseEffect from "../components/MouseEffect";
 import ResumeButton from "@/components/ui/ResumeButton";
 import NavLink from "@/components/ui/NavLink";
 import useActiveSection from "@/hooks/useActiveSection";
+import Image from "next/image";
 
 export default function Home() {
   const activeSection = useActiveSection();
@@ -21,14 +22,21 @@ export default function Home() {
 
         <aside className="z-10 w-full max-w-md flex flex-shrink-0 flex-col justify-between gap-8 md:gap-0 md:sticky md:top-0 md:max-h-screen md:py-24">
           <div className="flex flex-col gap-16">
-            <div className="flex flex-col">
-                <a href="/" className="text-3xl md:text-4xl font-bold tracking-tight">Glenard Sarmiento</a>
-                <div className="mt-3 text-base md:text-lg font-medium text-white/70">Educator, Builder, and Learner</div>
-                <div className="mt-4 text-sm md:text-base text-white/50 flex items-center gap-2">
-                  <Icon icon="akar-icons:location" className="size-4" />
-                  Cebu, Philippines
+            <div className="flex flex-col gap-4">
+              <div className="flex items-center gap-4">
+                <Image src="/images/2x2.jpg" alt="Glenard Sarmiento" width={500} height={500} className="size-14 md:size-16 object-cover rounded-full" draggable={false} />
+                <div className="flex flex-col gap-1">
+                  <a href="/" className="text-2xl md:text-3xl font-bold tracking-tight">Glenard Sarmiento</a>
+                  <div className="text-sm md:text-base font-medium text-white/70">Educator, Builder, and Learner</div>
                 </div>
+              </div>
+
+              <div className="text-sm md:text-base text-white/50 flex items-center gap-2">
+                <Icon icon="akar-icons:location" className="size-4" />
+                Cebu, Philippines
+              </div>
             </div>
+            
 
             <nav className="hidden md:flex flex-col items-start">
               <NavLink href="#about" label="About" isActive={activeSection === 'about'} />

@@ -35,7 +35,7 @@ const Education = ({
 }) => {
   return (
     <div className="flex gap-5">
-      <Image src={image} alt={school} width={64} height={64} className="bg-white p-1 aspect-square size-12 rounded-full sm:size-14 md:size-16" />
+      <Image src={image} alt={school} width={64} height={64} className="bg-white p-1 aspect-square size-12 rounded-full sm:size-14 md:size-16" draggable={false} />
 
       <div className="flex flex-col">
         <div className="leading-relaxed text-white font-semibold text-base md:text-lg">{program}</div>
