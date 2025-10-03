@@ -73,10 +73,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta
-          name="google-site-verification"
-          content="Eqy5SI50fPaCE8RY65sNf-rdqFx6MyVAQYQFEvxRE0U"
-        />
         <title>Glenard Sarmiento – Portfolio</title>
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
         <script
