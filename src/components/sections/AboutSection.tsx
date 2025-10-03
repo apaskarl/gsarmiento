@@ -3,7 +3,7 @@ import { Icon } from "@iconify/react/dist/iconify.js";
 
 export default function AboutSection() {
   return (
-    <SectionContainer id="about">
+    <SectionContainer id="about" number="01">
       <div className="flex flex-col gap-8">
         <p className="text-white/70 leading-relaxed">
           I specialize in the field of <Highlight text="Information Technology" />. My academic and professional interests lie in the integration of software, hardware, and human-centered design, with a focus on developing <Highlight text="innovative systems" /> that address practical challenges.

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function EducationSection() {
   return (
-    <SectionContainer id="education">
+    <SectionContainer id="education" number="03">
       <div className="flex flex-col gap-8">
         <Education
           image="/images/logos/citu.png"

@@ -4,7 +4,7 @@ import ResumeButton from "../ui/ResumeButton";
 
 export default function ExperienceSection() {
   return (
-    <SectionContainer id="experience">
+    <SectionContainer id="experience" number="02">
       <div className="flex flex-col gap-10">
         <Experience
           title="Faculty, BSIT"
