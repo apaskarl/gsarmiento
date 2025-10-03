@@ -8,7 +8,7 @@ export default function SectionContainer({
   children: React.ReactNode;
 }) {
   return (
-    <section id={id} className="flex flex-col gap-12 scroll-mt-24">
+    <section id={id} className="flex flex-col gap-10 md:gap-12 scroll-mt-24">
       <div className="flex items-end gap-3">
         <span className="text-primary font-mono text-base md:text-lg leading-none font-semibold tracking-tight">{number}.</span>
         <div className="flex-1 flex items-center gap-6">

@@ -16,7 +16,7 @@ export default function Home() {
 
   return (
     <div className="bg-dark">
-      <div className="relative container mx-auto flex max-w-screen-xl flex-col px-4 text-white md:flex-row py-6 md:py-0 gap-14 md:gap-0">
+      <div className="relative container mx-auto flex max-w-screen-xl flex-col px-4 text-white md:flex-row py-6 md:py-0 gap-16 md:gap-0">
         <MouseEffect />
 
         <aside className="z-10 w-full max-w-md flex flex-shrink-0 flex-col justify-between gap-8 md:gap-0 md:sticky md:top-0 md:max-h-screen md:py-24">
